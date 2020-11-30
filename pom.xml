@@ -19,4 +19,14 @@
         <module>ear</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>fr.insee.keycloak</groupId>
+                <artifactId>keycloak-http-storage-provider-core</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 </project>
