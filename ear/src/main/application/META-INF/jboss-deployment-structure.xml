@@ -1,0 +1,13 @@
+<jboss-deployment-structure>
+    <deployment>
+        <module-alias name="deployment.http-provider"/>
+    </deployment>
+    <sub-deployment name="provider-http.jar">
+        <dependencies>
+            <module name="org.keycloak.keycloak-core"/>
+            <module name="org.keycloak.keycloak-server-spi"/>
+            <module name="org.keycloak.keycloak-server-spi-private"/>
+            <module name="org.keycloak.keycloak-services"/>
+        </dependencies>
+    </sub-deployment>
+</jboss-deployment-structure>
