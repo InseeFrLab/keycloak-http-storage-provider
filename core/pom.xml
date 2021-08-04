@@ -8,7 +8,7 @@
     <parent>
         <groupId>fr.insee.keycloak</groupId>
         <artifactId>keycloak-http-storage-provider-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -27,7 +27,7 @@
         <maven.javadoc.plugin.version>3.1.1</maven.javadoc.plugin.version>
         <wildfly.maven.plugin.version>2.0.2.Final</wildfly.maven.plugin.version>
 
-        <keycloak.version>9.0.3</keycloak.version>
+        <keycloak.version>12.0.4</keycloak.version>
     </properties>
 
     <build>
@@ -163,7 +163,6 @@
             <version>2.6</version>
             <type>jar</type>
         </dependency>
-
 
 
     </dependencies>
